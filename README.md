@@ -32,7 +32,7 @@
 3. Click **Install**.
 
 ### Manual Installation
-1. Download the `.vsix` file from the [Releases](https://github.com/JeanxPereira/vscode-buildprop-syntax-buildprop-syntax/releases) page.
+1. Download the `.vsix` file from the [Releases](https://github.com/JeanxPereira/vscode-buildprop-syntax/releases) page.
 2. Open a terminal and run:
 
    ```bash
@@ -105,8 +105,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Feedback
 
-We value your feedback! Please let us know if you encounter any issues or have feature requests by [creating an issue](https://github.com/JeanxPereira/vscode-buildprop-syntax-buildprop-syntax/issues).
+We value your feedback! Please let us know if you encounter any issues or have feature requests by [creating an issue](https://github.com/JeanxPereira/vscode-buildprop-syntax/issues).
 
 ---
 
-⭐ **Enjoying the extension?** Don’t forget to give it a star on [GitHub](https://github.com/JeanxPereira/vscode-buildprop-syntax-buildprop-syntax) and leave a review in the VS Code Marketplace!
+⭐ **Enjoying the extension?** Don’t forget to give it a star on [GitHub](https://github.com/JeanxPereira/vscode-buildprop-syntax/) and leave a review in the VS Code Marketplace!
