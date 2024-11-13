@@ -1,4 +1,4 @@
-# 🛠️ Build Prop Syntax Highlighting for VS Code
+# 🛠️ Build.prop Syntax Highlighting for VS Code
 
 ![Extension Version](https://img.shields.io/badge/version-0.1.0-blue.svg)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%3E%3D1.75.0-blue.svg)
@@ -84,7 +84,7 @@ This extension works out of the box. No additional configuration is required.
    - Try restarting VS Code if the highlighting does not appear.
 
 2. **Incorrect highlighting**:
-   - Report an issue on the [GitHub repository](https://github.com/JeanxPereira/vscode-buildprop-syntax-buildprop-syntax/issues) with a sample of the problematic code.
+   - Report an issue on the [GitHub repository](https://github.com/JeanxPereira/vscode-buildprop-syntax/issues) with a sample of the problematic code.
 
 ## 🤝 Contributing
 

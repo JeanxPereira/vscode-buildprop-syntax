@@ -6,6 +6,9 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build-and-release:
     name: 📦 Build and Publish VSIX
@@ -23,21 +26,23 @@ jobs:
       - name: 📦 Install Dependencies
         run: |
           npm install -g @vscode/vsce
-          npm install  # Use npm install ao invés de npm ci
+          npm install
 
       - name: 🛠️ Build VSIX Package
         run: |
           vsce package
 
-      - name: 📤 Upload VSIX to Release
-        id: upload-release-asset
-        uses: actions/upload-release-asset@v1
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: buildprop-syntax-*.vsix
-          asset_name: buildprop-syntax.vsix
-          asset_content_type: application/octet-stream
+      - name: 🏷️ Create GitHub Release
+        id: create_release
+        run: |
+          gh release create "v${{ github.run_number }}" \
+            --title "Build Prop v${{ github.run_number }}" \
+            --notes "🚀 **New Release**\n- Generated VSIX package for Build Prop Syntax Highlighting."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 🛑 Check GitHub Token
-        if: ${{ github.token == '' }}
-        run: echo "❌ GitHub token is required for this step."
+      - name: 📤 Upload VSIX to Release
+        run: |
+          gh release upload "v${{ github.run_number }}" buildprop-syntax-*.vsix --clobber
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
