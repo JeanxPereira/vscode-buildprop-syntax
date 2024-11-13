@@ -3,7 +3,7 @@
 ![Extension Version](https://img.shields.io/badge/version-0.1.0-blue.svg)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%3E%3D1.75.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Build](https://github.com/your-repo/vscode-buildprop-syntax/workflows/CI/badge.svg)
+![Build](https://github.com/JeanxPereira/vscode-buildprop-syntax-buildprop-syntax/workflows/CI/badge.svg)
 
 ✨ **Build Prop Syntax Highlighting** is a Visual Studio Code extension that provides syntax highlighting for `build.prop` files commonly found in Android system images. This extension makes it easier to read and edit configuration properties by highlighting comments, keys, values, and common formatting errors.
 
@@ -32,7 +32,7 @@
 3. Click **Install**.
 
 ### Manual Installation
-1. Download the `.vsix` file from the [Releases](https://github.com/your-repo/vscode-buildprop-syntax/releases) page.
+1. Download the `.vsix` file from the [Releases](https://github.com/JeanxPereira/vscode-buildprop-syntax-buildprop-syntax/releases) page.
 2. Open a terminal and run:
 
    ```bash
@@ -84,7 +84,7 @@ This extension works out of the box. No additional configuration is required.
    - Try restarting VS Code if the highlighting does not appear.
 
 2. **Incorrect highlighting**:
-   - Report an issue on the [GitHub repository](https://github.com/your-repo/vscode-buildprop-syntax/issues) with a sample of the problematic code.
+   - Report an issue on the [GitHub repository](https://github.com/JeanxPereira/vscode-buildprop-syntax-buildprop-syntax/issues) with a sample of the problematic code.
 
 ## 🤝 Contributing
 
@@ -105,8 +105,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Feedback
 
-We value your feedback! Please let us know if you encounter any issues or have feature requests by [creating an issue](https://github.com/your-repo/vscode-buildprop-syntax/issues).
+We value your feedback! Please let us know if you encounter any issues or have feature requests by [creating an issue](https://github.com/JeanxPereira/vscode-buildprop-syntax-buildprop-syntax/issues).
 
 ---
 
-⭐ **Enjoying the extension?** Don’t forget to give it a star on [GitHub](https://github.com/your-repo/vscode-buildprop-syntax) and leave a review in the VS Code Marketplace!
+⭐ **Enjoying the extension?** Don’t forget to give it a star on [GitHub](https://github.com/JeanxPereira/vscode-buildprop-syntax-buildprop-syntax) and leave a review in the VS Code Marketplace!
