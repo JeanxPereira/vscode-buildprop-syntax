@@ -2,14 +2,14 @@
   "name": "buildprop-syntax",
   "displayName": "build.prop Syntax Highlighting",
   "description": "Provides syntax highlighting for android build.prop files.",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "publisher": "JeanxPereira",
   "repository": {
     "type": "git",
     "url": "https://github.com/JeanxPereira/vscode-buildprop-syntax.git"
   },
   "engines": {
-    "vscode": "^1.75.0 || ^1.80.0"
+    "vscode": "^1.75.0"
   },
   "categories": ["Programming Languages", "Other"],
   "contributes": {
