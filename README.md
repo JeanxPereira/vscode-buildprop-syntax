@@ -3,7 +3,7 @@
 ![Extension Version](https://img.shields.io/badge/version-1.1.0-blue.svg)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%3E%3D1.75.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Build Status](https://github.com/JeanxPereira/vscode-buildprop-syntax/workflows/CI/badge.svg)
+![Build Status](https://github.com/JeanxPereira/vscode-buildprop-syntax/actions/workflows/build.yml/badge.svg)
 
 ✨ **Build Prop Syntax Highlighting** is a Visual Studio Code extension that provides syntax highlighting for `build.prop` files commonly found in Android system images. This extension makes it easier to read and edit configuration properties by highlighting comments, keys, values, and common formatting errors.
 
