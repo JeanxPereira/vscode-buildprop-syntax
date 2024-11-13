@@ -84,7 +84,7 @@ This extension works out of the box. No additional configuration is required.
    - Try restarting VS Code if the highlighting does not appear.
 
 2. **Incorrect highlighting**:
-   - Report an issue on the [GitHub repository](https://github.com/your-repo/vscode-buildprop-syntax/issues) with a sample of the problematic code.
+   - Report an issue on the [GitHub repository](https://github.com/JeanxPereira/vscode-buildprop-syntax/issues) with a sample of the problematic code.
 
 ## 🤝 Contributing
 
