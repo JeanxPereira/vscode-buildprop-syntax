@@ -1,4 +1,4 @@
-# 🛠️ Build Prop Syntax Highlighting for VS Code
+# 🛠️ Build.prop Syntax Highlighting for VS Code
 
 ![Extension Version](https://img.shields.io/badge/version-0.1.0-blue.svg)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%3E%3D1.75.0-blue.svg)
