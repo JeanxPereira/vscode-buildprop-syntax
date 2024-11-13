@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "scopeName": "source.buildprop",
+  "patterns": [
+    {
+      "name": "comment.line.number-sign.buildprop",
+      "match": "#.*"
+    },
+    {
+      "name": "keyword.property.buildprop",
+      "match": "([a-zA-Z0-9_.\\-]+)="
+    },
+    {
+      "name": "string.value.buildprop",
+      "match": "(?<=\\=)[^,\\s#]+(?:,[^,\\s#]+)*"
+    },
+    {
+      "name": "constant.numeric.buildprop",
+      "match": "\\b\\d+\\b"
+    },
+    {
+      "name": "invalid.illegal.buildprop",
+      "match": "\\s+[=]"
+    },
+    {
+      "name": "string.value.buildprop",
+      "match": "(?<=\\=)[^,\\s#]+(?:,[^,\\s#]+)*|\".*?\""
+    },
+    {
+      "name": "keyword.property.buildprop",
+      "match": "([\\p{L}\\p{N}_.\\-]+)="
+    },
+    {
+      "name": "invalid.illegal.buildprop",
+      "match": "(\\s+[=]|=[\\s#]*)"
+    }        
+  ]
+}
