@@ -23,7 +23,7 @@ jobs:
       - name: 📦 Install Dependencies
         run: |
           npm install -g @vscode/vsce
-          npm ci
+          npm install
 
       - name: 🛠️ Build VSIX Package
         run: |
