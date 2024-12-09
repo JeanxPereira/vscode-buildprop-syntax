@@ -1,4 +1,7 @@
-# 🛠️ Build.prop Syntax Highlighting for VS Code
+<p align="center">
+  <img src="images/buildPropSyntaxLogo.svg" width="200" height="200" align="center">
+  <h1 align="center">🛠️ Build.prop Syntax Highlighting for VS Code!</h1>
+</p>
 
 ![Extension Version](https://img.shields.io/badge/version-1.1.0-blue.svg)
 ![VS Code](https://img.shields.io/badge/VS%20Code-%3E%3D1.75.0-blue.svg)

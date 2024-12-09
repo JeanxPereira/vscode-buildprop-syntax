@@ -46,3 +46,9 @@ jobs:
           gh release upload "v${{ github.run_number }}" buildprop-syntax-*.vsix --clobber
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🚀 Publish to Visual Studio Code Marketplace
+        run: |
+          vsce publish
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
