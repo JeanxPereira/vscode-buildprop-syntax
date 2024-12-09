@@ -1,0 +1,29 @@
+{
+  "fileTypes": ["rc"],
+  "scopeName": "source.initlogs",
+  "name": "Init Logs RC",
+  "patterns": [
+      {
+          "match": "#.*",
+          "name": "comment.line.number-sign.rc"
+      },
+      {
+          "match": "\\b(on|setprop)\\b",
+          "name": "keyword.control.rc"
+      },
+      {
+          "match": "\\b([a-zA-Z0-9_.]+)\\b",
+          "name": "variable.parameter.rc"
+      },
+      {
+          "match": "\\\".*?\\\"",
+          "name": "string.quoted.double.rc"
+      },
+      {
+          "match": "\\d+",
+          "name": "constant.numeric.rc"
+      }
+  ],
+  "repository": {},
+  "uuid": "123e4567-e89b-12d3-a456-426614174000"
+}

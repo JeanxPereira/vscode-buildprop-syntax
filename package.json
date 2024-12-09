@@ -2,7 +2,7 @@
   "name": "buildprop-syntax",
   "displayName": "build.prop Android Syntax Highlighting",
   "description": "Provides syntax highlighting for android build.prop files.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "icon": "images/icon.png",
   "publisher": "JeanxPereira",
   "repository": {
@@ -20,13 +20,24 @@
         "aliases": ["Build Prop", "build.prop"],
         "extensions": [".prop"],
         "configuration": "./language-configuration.json"
-      }
+      },
+      {
+        "id": "initlogs",
+        "aliases": ["Init Logs", "initlogs"],
+        "extensions": [".rc"],
+        "configuration": "./language-configuration.json"
+    }
     ],
     "grammars": [
       {
         "language": "buildprop",
         "scopeName": "source.buildprop",
         "path": "./syntaxes/buildprop.tmLanguage.json"
+      },
+      {
+        "language": "initlogs",
+        "scopeName": "source.initlogs",
+        "path": "./syntaxes/init-logs-rc.json"
       }
     ],
     "keywords": [
